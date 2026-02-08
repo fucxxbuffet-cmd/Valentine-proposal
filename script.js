@@ -125,14 +125,4 @@ function showMessage(response) {
     // Remove the "Yes" button
     document.getElementById("yesButton").remove();
   }
-
-}
-const noBtn = document.getElementById("no-button");
-
-noBtn.addEventListener("mouseover", () => {
-  const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
-  const y = Math.random() * (window.innerHeight - noBtn.offsetHeight);
-  noBtn.style.position = "absolute";
-  noBtn.style.left = `${x}px`;
-  noBtn.style.top = `${y}px`;
-});
+  }
